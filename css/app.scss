@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+$primary: #da2535;
+$white: #f3f1f1;
+$card-bg: #302728;
+
+$font-family-sans-serif: "Poppins", sans-serif;
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+//custom css
+.c-rounded {
+  border-radius: 1rem;
+}
+
+.c-footer-rounded {
+  border-radius: 1rem;
+}
+
+.header {
+  background: #ffffffb5;
+  backdrop-filter: blur(15px) contrast(130%);
+  z-index: 1005;
+}
+
+.header-icon {
+  width: 40px;
+  height: 40px;
+}
+.services-svg {
+  width: 65px;
+  height: 65px;
+  fill: var(--bs-primary);
+}
+
+.scroll-to-top {
+  bottom: 10px;
+  right: 30px;
+}
+
+.active {
+  color: #da2535 !important;
+}
+
+a:hover,
+a i:hover {
+  color: #da2535 !important;
+}
+.btn:hover {
+  background-color: white !important;
+}
+button i:hover {
+  color: #da2535 !important;
+}
+
+@media screen and (max-width: 500px) {
+  .c-footer-rounded {
+    border-radius: 0px;
+  }
+}
